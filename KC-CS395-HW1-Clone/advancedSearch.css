@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #d93025;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Center content horizontally */
+  padding: 50px;
+}
+
+/* Additional styles for better visualization */
+.search img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.specific-input {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+label {
+  width: 200px; /* Set a fixed width for your labels */
+  margin-right: 20px; /* Adjust spacing between label and input */
+}
+
+input[type="text"] {
+  margin: 10px;
+  min-width: 300px; /* Set a minimum width for your input boxes */
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #202124;
+}
+
+input[type="submit"] {
+  border-radius: 5px; /* Adjust the value to change the roundness */
+  padding: 4px; /* Optional: Add padding for better aesthetics */
+  background-color: #4d90fe;
+  cursor: pointer;
+  border: 1px solid #3079ed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 41px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+
+.links {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+}
+
+a {
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.range-input-box {
+  display: flex;
+}
+
+.google-logo {
+  display: flex;
+  align-items: center;
+}
+
+.g {
+  color: #4285f4; /* Blue */
+  font-weight: bold;
+}
+
+.o1,
+.e {
+  color: #ea4335; /* Red */
+  font-weight: bold;
+}
+
+.o2 {
+  transform: scaleX(-1); /* Flip the second 'o' horizontally */
+}
+
+.g,
+.o1,
+.o2,
+.g,
+.l,
+.e {
+  font-family: "Arial", sans-serif;
+  font-size: 2em;
+  margin: 0 2px;
+}
+
+.l {
+  color: #34a853; /* Green */
+  font-weight: bold;
+}
+
+.o2 {
+  color: #fbbc05; /* Yellow */
+  font-weight: bold;
+}

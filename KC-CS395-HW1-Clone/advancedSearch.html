@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="advancedSearch.css" />
+  </head>
+  <body>
+    <div class="links">
+      <a href="index.html">Poodle Search</a>
+    </div>
+
+    <div class="google-logo">
+      <span class="g">P</span>
+      <span class="o1">o</span>
+      <span class="o2">o</span>
+      <span class="g">d</span>
+      <span class="l">l</span>
+      <span class="e">e</span>
+    </div>
+
+    <div class="search">
+      <h1>Advanced Search</h1>
+      <h3>Find pages with...</h3>
+      <form action="https://www.google.com/search" method="GET">
+        <div class="specific-input">
+          <label for="xX4UFf"> all these words:</label>
+          <input
+            class="jfk-textinput"
+            value=""
+            autofocus="autofocus"
+            id="xX4UFf"
+            name="as_q"
+            type="text"
+          />
+        </div>
+
+        <div class="specific-input">
+          <label for="CwYCWc"> this exact word or phrase:</label>
+          <input
+            class="jfk-textinput"
+            value=""
+            id="CwYCWc"
+            name="as_epq"
+            type="text"
+          />
+        </div>
+
+        <div class="specific-input">
+          <label for="mSoczb"> any of these words:</label>
+          <input
+            class="jfk-textinput"
+            value=""
+            id="mSoczb"
+            name="as_oq"
+            type="text"
+          />
+        </div>
+
+        <div class="specific-input">
+          <label for="t2dX1c"> none of these words:</label>
+          <input
+            class="jfk-textinput"
+            value=""
+            id="t2dX1c"
+            name="as_eq"
+            type="text"
+          />
+        </div>
+
+        <div class="range-input-box">
+          <label for="LK5akc">numbers ranging from:</label>
+          <input class="jfk-textinput" id="LK5akc" name="as_nlo" type="text" />
+          <h5>to</h5>
+          <input class="jfk-textinput" name="as_nhi" type="text" />
+        </div>
+
+        <input type="submit" value="Advanced Search" />
+      </form>
+    </div>
+  </body>
+</html>
